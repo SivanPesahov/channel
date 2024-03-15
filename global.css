@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    padding: 400px;
+    /* align-items: center; */
+    
+}
+
+ul{
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+/* img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+.img{
+    flex:1;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 30px;
+    /* background-color: aqua; */
+    flex: 1;
+}
+
+.headline{
+    /* background-color: red; */
+    padding-top: 10%;
+    /* padding-bottom: 10%; */
+    font-family: Montserrat;
+    font-size: 14px;
+    
+}
+
+.brand{
+    /* background-color: green; */
+    padding-top: 10%;
+    padding-bottom: 15%;
+    font-family: "Montserrat";
+    
+
+
+}
+
+.discription{
+    /* background-color: violet; */
+    padding-top: 10%;
+    padding-bottom: 15%;
+    font-family: "Montserrat";
+
+}
+
+
+.prices{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    
+}
+
+.price1{
+    
+    padding-top: 10%;
+    padding-bottom: 15%;
+    font-family: "Montserrat";
+    color: rgb(41, 79, 41); 
+
+}
+
+.price2{
+    
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+    font-family: "Montserrat";
+    text-decoration: line-through;
+}
+
+.add-to-cart{
+    background-color: rgb(41, 79, 41);
+    color: aliceblue;
+    font-family: "Montserrat"; 
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
+a{
+    display: block;
+    text-align: center;
+    padding: 8px;
+    
+    
+}
+/* ----------------------------------------------- */
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.pic{
+    width: 450px;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    border-radius: 10px;
+
+    
+}
+
+.work-area{
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    /* flex-direction: column; */
+
+}
+
+.text-area{
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+    font-size: 14px;
+    flex: 1;
+    width: 400px;
+}
+
+.headline{
+    font-family: Montserrat;
+    
+}
+
+.perfume-specification{
+    display: flex;
+    padding-right: 60px;
+    font-size:x-large;
+}
+
+.discription{
+    display: flex;
+    padding-right: 80px;
+    font-size: medium;
+    
+}
+
+.price-area{
+    font-family: Montserrat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+    
+}
+
+.price3{
+    font-size: 40px;
+    color: rgb(41, 79, 41);
+    
+    
+}
+.price4{
+    text-decoration: line-through; 
+    padding: 40px;
+}
+
+.button-area{
+    background-color: rgb(41, 79, 41);
+    color: aliceblue;
+    font-family: "Montserrat"; 
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.button-area a{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
